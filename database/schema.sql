@@ -1035,7 +1035,7 @@ END //
 DELIMITER ;
 
 
-DROP PROCEDURE sp_GetEstadisticasSitio;
+DROP PROCEDURE IF EXISTS sp_GetEstadisticasSitio;
 DELIMITER //
 CREATE PROCEDURE sp_GetEstadisticasSitio() -- Cambio a funcion --
 BEGIN
@@ -1391,8 +1391,7 @@ DELIMITER ;
 
 
 -- CAMBIOS IMPORTANTES --
-ALTER TABLE Chat
-ADD COLUMN FechaUltimaActividad TIMESTAMP NULL DEFAULT NULL AFTER FechaCreacion;
+-- La columna Chat.FechaUltimaActividad ya se agrega arriba, antes de la vista que la usa.
 
 -- MUY RECOMENDADO:
 -- Actualizar la FechaUltimaActividad para los chats existentes una sola vez.
