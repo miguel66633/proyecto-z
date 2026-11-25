@@ -4,6 +4,21 @@ Red social inspirada en X/Twitter, hecha como proyecto universitario en equipo p
 
 La interfaz imita a propósito la de X: el objetivo del proyecto no era el diseño visual, sino construir la lógica completa de una red social, desde el enrutamiento y las sesiones hasta el modelo de datos.
 
+## Capturas
+
+Z corriendo en local con usuarios, publicaciones y mensajes de prueba inventados.
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/capturas/inicio.png" alt="Feed de inicio con publicaciones de texto y de imagen, cada una con sus likes, reposts, respuestas y guardados"><br><b>Inicio:</b> el feed, con likes, reposts, respuestas y guardados.</td>
+    <td width="50%"><img src="docs/capturas/perfil.png" alt="Perfil de usuario con banner, foto, biografía, contadores de seguidos y seguidores, y un repost en su lista de publicaciones"><br><b>Perfil:</b> banner, biografía, seguidores y reposts.</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/capturas/mensajes.png" alt="Pantalla de mensajes con la lista de chats ordenada por actividad y una conversación abierta"><br><b>Mensajes:</b> chats ordenados por actividad y la conversación abierta.</td>
+    <td width="50%"><img src="docs/capturas/admin.png" alt="Panel de administración con el total de usuarios registrados y de publicaciones, y la lista de usuarios"><br><b>Administración:</b> estadísticas del sitio y lista de usuarios.</td>
+  </tr>
+</table>
+
 ## Qué hace
 
 - Registro e inicio de sesión con validación en cliente y servidor; contraseñas con `password_hash`.
